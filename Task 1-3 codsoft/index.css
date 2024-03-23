@@ -1,0 +1,53 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+.gelary{
+    max-width: 405px;
+    height: 500px;
+    border: rgb(69, 24, 113) solid 10px;
+    margin:15px auto;
+    padding: 8px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(0, 0, 0,0.9);
+    transition: .3s;
+    
+}
+.cal-name {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    width: fit-content;
+}
+.display {
+    margin-top: 10px;
+}
+.display #result{
+    width: 400px;
+    height: 90px;
+    font-size:60px ;
+    text-align: right;
+    font-weight: bold;
+    padding: 0px 1px 0px 0px;
+    border: black solid 3px;
+    letter-spacing: 5px;
+}
+.gelary:hover{
+    box-shadow: 15px 15px 15px 15px rgb(0, 0, 0,0.9);
+}
+.btn{
+    width:101.25px;
+    height: 70px;
+    font-size: 30px;
+    color: rgb(255, 252, 252);
+    background-color: rgb(19, 18, 18);
+    
+}
+.all-btn{
+    font-size: 0;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color: rgb(47, 47, 49);
+}
